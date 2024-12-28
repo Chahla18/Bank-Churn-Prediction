@@ -7,7 +7,7 @@ L'objectif est de prédire si un client quittera la banque ou non, en utilisant 
 
 ## À Propos du Projet
 
-Ce projet utilise le dataset **"Bank Customer Churn"**, un jeu de données couramment utilisé pour prédire la fidélité des clients dans le secteur bancaire.  
+Ce projet utilise le dataset **"Bank Customer Churn"**, un jeu de données utilisé pour prédire la fidélité des clients dans le secteur bancaire.  
 
 Le but est de développer un modèle de machine learning capable d’estimer la probabilité qu’un client quitte la banque (**churn**).
 
@@ -47,9 +47,28 @@ cd bank-churn-prediction
 
 ### **Configurer l’Environnement Virtuel :**
 
+```bash
 python3 -m venv .venv_churn
 source .venv_churn/bin/activate   # Sur Windows : .venv_churn\Scripts\activate
 pip install -r requirements.txt
 
 
-## Organisation du Projet 📁
+## ** Organisation du Projet 📁 **
+
+📂 data/
+   ├── train.csv                   # Jeu d'entraînement
+   ├── test.csv                    # Jeu de test
+   ├── sample_submission.csv       # Exemple de soumission
+📂 src/
+   ├── main.ipynb                  # Notebook principal pour l'analyse et la modélisation
+   ├── 📂 models/                  # Répertoire pour les scripts de création des modèles
+.gitignore
+README.md
+requirements.txt
+
+
+### **Contact 📬**
+
+
+Aya Mokhtar : mokhtar.aya2001@gmail.com
+Chahla Tarmoun : chahlatarmoun@outlook.com
