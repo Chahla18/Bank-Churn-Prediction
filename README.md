@@ -5,7 +5,8 @@
 
 **Objectif** : Construire un modèle de machine learning pour prédire si un client quittera la banque (churn). L'objectif est de maximiser l'**AUC** (Area Under the Curve), la métrique utilisée pour évaluer les prédictions.
 
-### **Description des Données :**
+---
+## **Description des Données :**
 
 - **Train** : Contient les caractéristiques des clients et la variable cible **Exited** (1 = client a quitté, 0 = client est resté).
 - **Test** : Contient les mêmes caractéristiques, mais sans la variable cible **Exited**. Il faut prédire cette variable pour soumettre les résultats. le jeu de test qu'on détient représente seulement 20% de la base totale...
@@ -27,19 +28,19 @@ Les datasets incluent les variables suivantes :
 - **IsActiveMember** : Client actif ou non (1 = Oui, 0 = Non).  
 - **EstimatedSalary** : Salaire estimé du client.  
 
-#### Processus à suivre :
+## Processus à suivre :
 1. **Préparation des données** : Analyser et nettoyer les données (encodage des variables catégorielles, normalisation des données).
 2. **Modélisation** : Tester plusieurs modèles (régression logistique, forêts aléatoires, SVM, etc.) et ajuster les hyperparamètres pour optimiser l'AUC.
 3. **Validation** : Utiliser l'AUC comme principale métrique pour évaluer les modèles sur l'ensemble de validation.
 4. **Soumission** : Soumettre les prédictions pour l'ensemble de test (fichier .csv). L'évaluation des soumissions sera basée sur l'AUC.
 
-### Livrables :
+## Livrables :
 - **Présentation** : Explique la méthodologie, les choix de modèles et les résultats obtenus.
 - **Code** : Notebook bien documenté, incluant la préparation des données, la modélisation et les prédictions.
 
 ---
 
-### Travailler sur le Projet
+## Travailler sur le Projet
 
 ### **Cloner le Repository et configurer l’environnement virtuel:**
 
