@@ -45,6 +45,11 @@ Le dataset inclut les attributs suivants :
 git clone https://github.com/Chahla18/Bank-Churn-Prediction.git
 cd bank-churn-prediction
 
+### **Configurer l’Environnement Virtuel :**
+
 python3 -m venv .venv_churn
 source .venv_churn/bin/activate   # Sur Windows : .venv_churn\Scripts\activate
 pip install -r requirements.txt
+
+
+## Organisation du Projet 📁
