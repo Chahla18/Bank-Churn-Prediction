@@ -39,36 +39,13 @@ Le dataset inclut les attributs suivants :
 
 ## Travailler sur le Projet
 
-### **Cloner le Repository :**
+### **Cloner le Repository et Configurer l’environnement virtuel:**
 
 ```bash
 git clone https://github.com/Chahla18/Bank-Churn-Prediction.git
 cd bank-churn-prediction
 
-### **Configurer l’Environnement Virtuel :**
 
-```bash
 python3 -m venv .venv_churn
 source .venv_churn/bin/activate   # Sur Windows : .venv_churn\Scripts\activate
 pip install -r requirements.txt
-
-
-## ** Organisation du Projet 📁 **
-
-📂 data/
-   ├── train.csv                   # Jeu d'entraînement
-   ├── test.csv                    # Jeu de test
-   ├── sample_submission.csv       # Exemple de soumission
-📂 src/
-   ├── main.ipynb                  # Notebook principal pour l'analyse et la modélisation
-   ├── 📂 models/                  # Répertoire pour les scripts de création des modèles
-.gitignore
-README.md
-requirements.txt
-
-
-### **Contact 📬**
-
-
-Aya Mokhtar : mokhtar.aya2001@gmail.com
-Chahla Tarmoun : chahlatarmoun@outlook.com
