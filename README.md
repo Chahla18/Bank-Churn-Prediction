@@ -8,11 +8,11 @@
 ### **Description des Données :**
 
 - **Train** : Contient les caractéristiques des clients et la variable cible **Exited** (1 = client a quitté, 0 = client est resté).
-- **Test** : Contient les mêmes caractéristiques, mais sans la variable cible **Exited**. Il faut prédire cette variable pour soumettre les résultats. le jeu de test qu'on a represente seulement 20% de la base total (seulement le prof détient la base total).... 
-
+- **Test** : Contient les mêmes caractéristiques, mais sans la variable cible **Exited**. Il faut prédire cette variable pour soumettre les résultats. le jeu de test qu'on détient représente seulement 20% de la base totale...
+- 
 ---
 
-Le dataset inclut les attributs suivants :  
+Les datasets incluent les variables suivantes :  
 
 - **Customer ID** : Identifiant unique pour chaque client.  
 - **Surname** : Nom de famille du client.  
@@ -26,23 +26,22 @@ Le dataset inclut les attributs suivants :
 - **HasCrCard** : Possession d’une carte de crédit (1 = Oui, 0 = Non).  
 - **IsActiveMember** : Client actif ou non (1 = Oui, 0 = Non).  
 - **EstimatedSalary** : Salaire estimé du client.  
-- **Exited** : Variable cible (1 = Churn, 0 = Fidèle).  
 
 #### Processus à suivre :
-1. **Préparation des données** : Analyser et nettoyer les données (gestion des valeurs manquantes, encodage des variables catégorielles, normalisation si nécessaire).
+1. **Préparation des données** : Analyser et nettoyer les données (encodage des variables catégorielles, normalisation des données).
 2. **Modélisation** : Tester plusieurs modèles (régression logistique, forêts aléatoires, SVM, etc.) et ajuster les hyperparamètres pour optimiser l'AUC.
-3. **Validation** : Utiliser l'AUC comme principale métrique pour évaluer les modèles sur un ensemble de validation.
-4. **Soumission** : Soumettre les prédictions pour l'ensemble de test sans la variable **Exited**. L'évaluation des soumissions sera basée sur l'AUC.
+3. **Validation** : Utiliser l'AUC comme principale métrique pour évaluer les modèles sur l'ensemble de validation.
+4. **Soumission** : Soumettre les prédictions pour l'ensemble de test (fichier .csv). L'évaluation des soumissions sera basée sur l'AUC.
 
-#### Livrables :
+### Livrables :
 - **Présentation** : Explique la méthodologie, les choix de modèles et les résultats obtenus.
 - **Code** : Notebook bien documenté, incluant la préparation des données, la modélisation et les prédictions.
 
 ---
 
-## Travailler sur le Projet
+### Travailler sur le Projet
 
-### **Cloner le Repository et Configurer l’environnement virtuel:**
+### **Cloner le Repository et configurer l’environnement virtuel:**
 
 ```bash
 git clone https://github.com/Chahla18/Bank-Churn-Prediction.git
