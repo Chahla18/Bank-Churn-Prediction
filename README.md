@@ -9,8 +9,7 @@
 ## **Description des Données :**
 
 - **Train** : Contient les caractéristiques des clients et la variable cible **Exited** (1 = client a quitté, 0 = client est resté).
-- **Test** : Contient les mêmes caractéristiques, mais sans la variable cible **Exited**. Il faut prédire cette variable pour soumettre les résultats. le jeu de test qu'on détient représente seulement 20% de la base totale...
-- 
+- **Test** : Contient les mêmes caractéristiques, mais sans la variable cible **Exited**. Il faut prédire cette variable pour soumettre les résultats. le jeu de test qu'on détient représente seulement 20% de la base totale..
 ---
 
 Les datasets incluent les variables suivantes :  
